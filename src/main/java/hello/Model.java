@@ -9,6 +9,9 @@ import com.mongodb.client.MongoDatabase;
 
 public class Model {
 
+	//you can use the real MongoDB with the line above
+	//MongoClient client = new MongoClient();
+	
 	Fongo fongo = new Fongo("mongo");
 	
 	public void addResponse(Document response){

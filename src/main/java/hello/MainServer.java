@@ -25,15 +25,20 @@ public class MainServer {
         }
         port(myPort);
 
-
+        staticFileLocation("/static");
 
         
         post("/readMessages", (req, res) -> {
             api.readMessage(req.bodyAsBytes());
-            return "Sucesso";
+            return "Success";
         });
 
-
+        post("/defineMessages", (req, res) -> {
+            api.defineMessages(req.body());
+            return "Success";
+        });
+        
+        
     }
     
     public static void initialize(){
