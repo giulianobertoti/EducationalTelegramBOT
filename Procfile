@@ -1,2 +1,0 @@
-web: ./build/install/app/bin/app
-
