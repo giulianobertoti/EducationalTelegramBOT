@@ -14,7 +14,7 @@ import com.pengrad.telegrambot.response.SendResponse;
 public class View implements Observer{
 
 	
-	TelegramBot bot = TelegramBotAdapter.build("423047267:AAEwESFEO1urcGSibUOLWq9qIzet63QKFUc");
+	TelegramBot bot = TelegramBotAdapter.build("");
 
 	//Object that receives messages
 	GetUpdatesResponse updatesResponse;
