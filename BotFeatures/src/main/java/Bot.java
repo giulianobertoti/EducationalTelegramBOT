@@ -29,7 +29,7 @@ public class Bot {
 	public static void main(String[] args) throws InterruptedException {
 
 		// Criacao do objeto bot com as informacoes de acesso
-		TelegramBot bot = TelegramBotAdapter.build("423047267:AAEwESFEO1urcGSibUOLWq9qIzet63QKFUc");
+		TelegramBot bot = TelegramBotAdapter.build("");
 
 		// objeto responsavel por receber as mensagens
 		GetUpdatesResponse updatesResponse;
