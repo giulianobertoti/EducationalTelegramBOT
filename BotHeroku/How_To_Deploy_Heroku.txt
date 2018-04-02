@@ -1,0 +1,31 @@
+
+ - heroku login
+
+ - Criar projeto
+heroku apps:create nome_do_projeto
+
+ - App em
+nome_do_projeto.herokuapp.com
+
+ - Git em
+https://git.heroku.com/nome_do_projeto.git
+
+ - Depois que criei o projeto Clonei ele em um diretório da minha maquina(ex: c:\heroku)
+
+git clone https://git.heroku.com/nome_do_projeto.git (faz no diretório atual por default ou passa o diretório)
+
+
+ - Checar o commit (alterações)
+git status
+
+ - Adicionar as alterações
+git add .
+
+ - Criar Commit
+git commit -m "update"
+
+ - (fazer apenas na primeira vez)Estabeleceu o acesso remoto via ssh com o Heroku
+heroku git:remote -a nome_do_projeto
+
+ - Enviar de fato
+git push heroku master
