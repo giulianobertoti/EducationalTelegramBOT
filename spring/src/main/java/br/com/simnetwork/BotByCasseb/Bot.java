@@ -35,7 +35,7 @@ import com.pengrad.telegrambot.response.SendResponse;
 public class Bot {
 
 	// Cria��o do objeto bot com as informa��es de acesso
-	TelegramBot bot = TelegramBotAdapter.build("440580164:AAHuhN2WOh2ldrxcpnw_L8uiliN9AQ2NFKU");
+	TelegramBot bot = TelegramBotAdapter.build("");
 
 	// objeto respons�vel por receber as mensagens
 	GetUpdatesResponse updatesResponse;
